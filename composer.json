@@ -1,0 +1,14 @@
+{
+    "name": "detecmedia/DemoBundle",
+    "type": "pimcore-plugin",
+    "require": {
+        "pimcore/installer-plugin": ">=1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DemoBundle\\": "lib"
+        }
+    }
+} 
+
+
