@@ -1,0 +1,10 @@
+version: "2.0"
+services:
+  pimcore:
+      build: .
+      image: our/pimcore:5.2.1
+      container_name: pimcore-5-bundle-demo
+      ports:
+            - "8888:80"
+      volumes:
+           - "./:/code/"
